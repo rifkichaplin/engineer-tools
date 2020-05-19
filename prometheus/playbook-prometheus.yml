@@ -1,0 +1,11 @@
+- name: Vagrant image for Prometheus
+  hosts: all
+  user: vagrant
+  become: yes
+  gather_facts: yes
+
+  vars:
+    - vagrant_host: True
+
+  roles:
+    - role: prometheus
