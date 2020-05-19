@@ -8,7 +8,6 @@
 - virtualenv -p python3 venv_prometheus
 - source venv_prometheus/bin/activate
 - pip install ansible==2.9.9
-- pip install -r ansible-prometheus/test-requirements.txt
 - brew install gnu-tar #just for mac as deployer
 - export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES #just for mac as deployer
 - mkdir -p roles/prometheus
